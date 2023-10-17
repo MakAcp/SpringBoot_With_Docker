@@ -12,3 +12,13 @@ Commands:
 5) docker run -p 9090:8080 spring-boot-docker.jar (Runs the container) 
 
 The application will now run on localhost 9090. 
+
+----------------------------------------------------------------------------------
+
+API Calls - The application consists of 3 simple calls
+
+POST http://localhost:9090/listoperations/string - Replace the default array with a desired integer array.(Input an integer array in the body)
+GET  http://localhost:9090/listoperations/sort - Returns the sorted array in the output.
+GET  http://localhost:9090/listoperations/reverse - Returns the reversed array in the output.
+
+
