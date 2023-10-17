@@ -16,7 +16,9 @@ The application will now run on localhost 9090.
 API Calls - The application consists of 3 simple calls
 
 1)POST http://localhost:9090/listoperations/string - Replace the default array with a desired integer array.(Input an integer array in the body)
+
 2)GET  http://localhost:9090/listoperations/sort - Returns the sorted array in the output.
+
 3)GET  http://localhost:9090/listoperations/reverse - Returns the reversed array in the output.
 
 ----------------------------------------------------------------------------------
