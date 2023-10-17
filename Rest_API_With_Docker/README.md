@@ -2,7 +2,7 @@ Docker Image Generation for a Simple Spring Boot Application
 
 Steps to generate docker image
 
--Write a docker file. Specify all the necessary config(Eg Working dir , Post exposing etc)
+-Write a docker file. Specify all the necessary config(Eg Working dir , Port exposing etc)
 
 Commands:
 1) mvn clean   (cleans all files generated during previous build)
